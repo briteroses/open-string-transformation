@@ -47,7 +47,7 @@ if __name__ == "__main__":
     run(config)
 ```
 
-The script will run locally via `python main.py`, or, if you have a Modal account, the script can be run on a cheap remote CPU with `modal run -d main.py`.
+The script will run locally via `python main.py`, or, if you have a Modal account, the script can be run on a cheap remote CPU with `modal run -d main.py`. (If running on Modal, first change the Modal configuration to your liking at `utils/modal_utils.py`.)
 
 It's also easy to use string transformations standalone. See the following example:
 ```python
